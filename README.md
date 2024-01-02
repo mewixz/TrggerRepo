@@ -1,19 +1,11 @@
 # SparkDLTrigger - Particle Classifier using Deep Learning and Spark
-Welcome to the SparkDLTrigger repository! This project focuses on building a machine learning pipeline for 
+This project focuses on building a machine learning pipeline for 
 a high-energy physics particle classifier using Apache Spark, ROOT, Parquet, TensorFlow, and Jupyter with 
 Python notebooks.
 
 [![SWAN](https://swan.web.cern.ch/sites/swan.web.cern.ch/files/pictures/open_in_swan.svg)](https://swan-k8s.cern.ch/user-redirect/download?projurl=https://github.com/cerndb/SparkDLTrigger.git)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cerndb/SparkDLTrigger)
 
-## Related articles and presentations
-This project is supported by several articles and presentations that provide further insights and details. Check them out:
-
-- [Machine Learning Pipelines with Modern Big Data Tools for High Energy Physics](https://rdcu.be/b4Wk9)
- *Comput Softw Big Sci* **4**, 8 (2020).
-- Blog entries:
-  - [Machine Learning Pipelines for High Energy Physics Using Apache Spark with BigDL and Analytics Zoo](https://db-blog.web.cern.ch/blog/luca-canali/machine-learning-pipelines-high-energy-physics-using-apache-spark-bigdl)    
-  - [Distributed Deep Learning for Physics with TensorFlow and Kubernetes](https://db-blog.web.cern.ch/blog/luca-canali/2020-03-distributed-deep-learning-physics-tensorflow-and-kubernetes)
 
 ## Physics Use Case
 The project focuses on a particle classifier that enhances the accuracy of event selection in high-energy physics. 
@@ -24,12 +16,6 @@ and implements it using tools from the Big Data ecosystem, such as Apache Spark 
 
 ![Physics use case for the particle classifier](Docs/Physics_use_case.png)
 
-## Authors  
-- Authors and contacts: Matteo.Migliorini@cern.ch, Riccardo.Castellotti@cern.ch, Luca.Canali@cern.ch    
-- Original research article, raw data and neural network models by: [T.Q. Nguyen *et al.*, Comput Softw Big Sci (2019) 3: 12](https://link.springer.com/epdf/10.1007/s41781-019-0028-1?author_access_token=eTrqfrCuFIP2vF4nDLnFfPe4RwlQNchNByi7wbcMAY7NPT1w8XxcX1ECT83E92HWx9dJzh9T9_y5Vfi9oc80ZXe7hp7PAj21GjdEF2hlNWXYAkFiNn--k5gFtNRj6avm0UukUt9M9hAH_j4UR7eR-g%3D%3D)   
-- Acknowledgements: Marco Zanetti, Thong Nguyen, Maurizio Pierini, Viktor Khristenko, CERN openlab, 
-members of the Hadoop and Spark service at CERN, CMS Bigdata project,
-Intel team for BigDL and Analytics Zoo consultancy: Jiao (Jennie) Wang and Sajan Govindan.
 
 ## Project Structure
 
@@ -119,13 +105,4 @@ By achieving results consistent with the original research paper, we validate th
 For more detailed insights into the experimental setup, methodology, and performance evaluation, please refer to the associated documentation and research article.
 The results of the DL model(s) training are satisfactoy and match the results of the original research paper. 
 
-
-## Additional Info and References
-- [Article "Machine Learning Pipelines with Modern Big DataTools for High Energy Physics"](https://rdcu.be/b4Wk9) *Comput Softw Big Sci* **4**, 8 (2020), and [arXiv.org](https://arxiv.org/abs/1909.10389)
-- [Blog post "Machine Learning Pipelines for High Energy Physics Using Apache Spark with BigDL and Analytics Zoo"](https://db-blog.web.cern.ch/blog/luca-canali/machine-learning-pipelines-high-energy-physics-using-apache-spark-bigdl)
-- [Blog post "Distributed Deep Learning for Physics with TensorFlow and Kubernetes"](https://db-blog.web.cern.ch/blog/luca-canali/2020-03-distributed-deep-learning-physics-tensorflow-and-kubernetes)
-- [Poster at the CERN openlab technical workshop 2019](Docs/Poster.pdf)  
-- [Presentation at Spark Summit SF 2019](https://databricks.com/session/deep-learning-on-apache-spark-at-cerns-large-hadron-collider-with-intel-technologies)  
-- [Presentation at Spark Summit EU 2019](https://databricks.com/session_eu19/deep-learning-pipelines-for-high-energy-physics-using-apache-spark-with-distributed-keras-on-analytics-zoo)
-- [Presentation at CERN EP-IT Data science seminar](https://indico.cern.ch/event/859119/)
 
